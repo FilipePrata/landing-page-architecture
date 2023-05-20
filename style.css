@@ -1,0 +1,117 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#header {
+    background-color: #303030;
+}
+
+#headerTitle {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-top: 206px;
+    margin-left: 62px;
+}
+
+#headerSubtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 20px 0px 150px 62px;
+}
+
+#informationalMenu {
+    background: #F9F9F9;
+    justify-content: space-around;
+    padding: 90px 170px 65px 170px;
+}
+
+.numbersIM {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.textIM {
+    font-size: 20px;
+}
+
+#description {
+    background: #FFFFFF;
+    justify-content: space-between;
+    padding: 82px 54px 92px 77px;
+}
+
+#descriptionTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+#descriptionText {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 30px;
+}
+
+#form {
+    text-align: center;
+    padding: 87px 0 87px 0;
+    background: #303030;
+}
+
+#formTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 58px;
+}
+
+#form input {
+    padding: 19px 160px 23px 30px;
+    border: none;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(73, 70, 70);
+    margin-bottom: 62px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 22px 40px 22px 40px;
+    background-color: #C07212;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dba665;
+    transform: translateY(-5px);
+    transform: translateX(2px);
+    transition-duration: 0.6s;
+    box-shadow: 0 5px 5px 0 #9b60189a;
+}
